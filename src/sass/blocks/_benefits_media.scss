@@ -1,0 +1,46 @@
+@media (max-width: 1520px) {
+  .benefits {
+    &__item {
+      flex: 1 0 22%;
+    }
+  }
+}
+
+@media (max-width: 1400px) {
+  .benefits {
+    &__items {
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    &__item {
+      flex: 1 0 45%;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .benefits {
+    &__items {
+      flex-wrap: wrap;
+    }
+
+    &__item {
+      flex-grow: 1 0 48%;
+    }
+  }
+}
+@media (max-width: 576px) {
+  .benefits {
+    &__items {
+      margin-top: 24px;
+    }
+    &__item {
+      flex: 1 0 95%;
+
+      padding-block: 18px;
+    }
+  }
+  .title_fz30 {
+    font-size: 26px;
+  }
+}

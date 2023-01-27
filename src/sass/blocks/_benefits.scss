@@ -1,0 +1,26 @@
+.benefits {
+  padding-top: 54px;
+  &__items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 34px;
+  }
+  &__item {
+    width: 357px;
+
+    display: flex;
+    height: 94px;
+    gap: 20px;
+    align-items: center;
+
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    padding-inline: 5%;
+    padding-block: 10px;
+    gap: 25px;
+  }
+  &__descr {
+    margin-top: 7px;
+  }
+}
